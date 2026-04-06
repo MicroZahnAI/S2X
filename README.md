@@ -183,15 +183,15 @@ The full engine, automation capabilities, and advanced implementation remain pro
 Enterprise Analytics & Modernization Strategy  
 Established 2011  
 
-```
-📧 info@microzahn.com (Product) | STAT_X1@yahoo.com (Consulting)
+
+📧 info@microzahn.com (Product) | STAT_X1@yahoo.com (Consulting)  
 🌐 (Website link – coming soon)
-```
+
 ---
 
 ## License
 
-This repository is provided for informational and demonstration purposes only.
+This repository is provided for informational and demonstration purposes.
 
 All underlying methodologies, frameworks, and implementation logic are the intellectual property of STAT X1, Inc.
 
