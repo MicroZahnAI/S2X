@@ -75,17 +75,17 @@ What traditionally required weeks or months of manual analysis can now be comple
 S2X operates as a structured transformation pipeline:
 
 Original SAS Code
-↓
+        ↓
 Normalized & Prepared Code
-↓
+        ↓
 Dataset Identification
-↓
+        ↓
 Macro-Aware Expansion
-↓
+        ↓
 Flattened Logical Representation
-↓
+        ↓
 Transformation Analysis Engine
-↓
+        ↓
 S2T Mapping Outputs (Excel / Structured Data)
 
 
