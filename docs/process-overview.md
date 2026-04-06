@@ -1,11 +1,14 @@
 # S2X Process Overview
-*This document provides a high-level process overview. Implementation details and internal automation components are proprietary to MicroZahn (STAT X1, Inc.).*
+*This document provides a high-level process overview.  
+Implementation details and internal automation components are proprietary to MicroZahn (STAT X1, Inc.).*  
+
+S2X is designed to operate at scale across large SAS environments, including hundreds to thousands of programs.
 
 ## High-Level S2T Generation Workflow
 
 S2X follows a structured, multi-stage process to transform SAS code into traceable, auditable Source-to-Target (S2T) mappings.
 
-This workflow is designed to operate on sanitized code only and does not require access to underlying data.
+This workflow operates on sanitized code only and does not require access to underlying data.
 
 ---
 
