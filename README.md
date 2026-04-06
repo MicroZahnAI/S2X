@@ -48,7 +48,7 @@ What traditionally required weeks or months of manual analysis can now be comple
 - Rule traceability back to source code  
 
 ### Macro-Aware Processing
-- Handles macro-driven SAS logic  
+- Handles complex macro-driven SAS logic  
 - Preserves true execution behavior in analysis  
 
 ### Input / Output Dataset Detection
@@ -74,10 +74,6 @@ What traditionally required weeks or months of manual analysis can now be comple
 
 S2X operates as a structured transformation pipeline:
 
-## Architecture Concept
-
-S2X operates as a structured transformation pipeline:
-
 ```
 Original SAS Code
         ↓
@@ -95,7 +91,7 @@ S2T Mapping Outputs (Excel / Structured Data)
 ```
 
 
-Intermediate processing stages normalize and expand SAS logic into a structured, analyzable form.
+Intermediate stages normalize and expand SAS logic into a structured, analyzable representation.
 
 ---
 
@@ -187,9 +183,10 @@ The full engine, automation capabilities, and advanced implementation remain pro
 Enterprise Analytics & Modernization Strategy  
 Established 2011  
 
-📧 STAT_X1@yahoo.com | info@microzahn.com  
+```
+📧 info@microzahn.com (Product) | STAT_X1@yahoo.com (Consulting)
 🌐 (Website link – coming soon)
-
+```
 ---
 
 ## License
