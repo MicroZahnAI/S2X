@@ -1,127 +1,109 @@
-# SAS-2X Process Overview
+# S2X Process Overview
+*This document provides a high-level process overview. Implementation details and internal automation components are proprietary to MicroZahn (STAT X1, Inc.).*
 
 ## High-Level S2T Generation Workflow
 
-SAS-2X follows a structured, multi-step process to transform SAS code into
-traceable, auditable Source-to-Target (S2T) mappings.
+S2X follows a structured, multi-stage process to transform SAS code into traceable, auditable Source-to-Target (S2T) mappings.
 
-This workflow is designed to operate on sanitized code only, requiring no
-access to underlying data.
+This workflow is designed to operate on sanitized code only and does not require access to underlying data.
 
 ---
 
-## Step 01 — Code Preparation (Scrub Phase)
+## Step 01 — Code Preparation
 
 **Input:**
 - Original SAS program (`*.sas`)
 
 **Actions:**
-- Remove comments and non-essential content
-- Remove or redact PHI-sensitive elements
-- Expand `%INCLUDE` references
-- Preserve executable logic only
+- Remove comments and non-essential content  
+- Redact or exclude sensitive elements  
+- Resolve external code references  
+- Preserve executable logic only  
 
 **Output:**
-- Sanitized program:
-  *_scrub00.sas
+- Normalized, analysis-ready SAS code  
 
 ---
 
 ## Step 02 — Dataset Identification
 
-**Program:**
-- SAS-2X_Module01_ID_I-O_DSNs.sas
-
 **Input:**
-- `_scrub00.sas`
+- Prepared SAS code  
 
 **Actions:**
-- Parse SAS code to identify:
-  - Input datasets
-  - Output datasets
-  - Library references (libname.dsname)
+- Identify:
+  - Input datasets  
+  - Output datasets  
+  - Library and reference structures  
 
 **Output:**
-- Structured dataset inventory
-- Used for traceability and controlled analysis
+- Structured dataset inventory  
+- Foundation for lineage and dependency mapping  
 
 ---
 
-## Step 03 — Macro Expansion (Non-Destructive)
+## Step 03 — Macro-Aware Expansion
 
-**Program:**
-- SAS-2X_Module02_Scrub_Expand_Macro_from_SAS_Code.sas
-
-**Inputs:**
-- `_scrub00.sas`
-- Dataset inventory from Step 02
+**Input:**
+- Prepared SAS code  
+- Dataset inventory  
 
 **Actions:**
-- Redirect datasets to WORK (safe execution)
-- Execute SAS with `MPRINT` enabled
-- Capture macro-expanded code
-- Preserve execution logic without modifying source data
+- Expand macro-driven logic into analyzable form  
+- Preserve execution behavior  
+- Normalize dynamic code structures  
 
 **Output:**
-- Macro-expanded program:
-  *_scrub00_mprint.sas
-
-- Standardized as:
-  *_scrub01.sas
+- Flattened, macro-resolved SAS logic  
 
 ---
 
-## Step 04 — Logic Analysis (SPARq Engine)
-
-**Program:**
-- SAS-2X_Module03_SPARQ_Engine.sas
+## Step 04 — Logic Analysis & S2T Generation
 
 **Input:**
-- `_scrub01.sas`
-  (or `_scrub00.sas` if no macros exist)
+- Flattened SAS logic  
 
 **Actions:**
 - Analyze:
-  - DATA step transformations
-  - PROC SQL logic
-  - Joins and filters
-  - Derived variables
-- Capture:
-  - Variable-level logic
-  - Transformation rules
-  - Lineage relationships
+  - DATA step transformations  
+  - PROC SQL logic  
+  - Joins, filters, and conditional rules  
+  - Derived variable construction  
+
+- Extract:
+  - Variable-level transformation logic  
+  - Rule definitions  
+  - Source-to-target lineage relationships  
 
 **Output:**
-- Structured S2T documentation:
-  S2T_<ProgramName>_<OutputDataset>.xlsx
+- Structured S2T documentation  
+- Transformation-ready mapping outputs  
 
 ---
 
 ## Key Characteristics
 
-- **Code-Only Processing**
-  - No production data required
+### Code-Only Processing
+- No production data required  
 
-- **PHI-Safe Workflow**
-  - Operates on scrubbed programs only
+### PHI-Safe Workflow
+- Operates exclusively on sanitized code  
 
-- **Traceable Outputs**
-  - All logic tied back to source code
+### Traceable Outputs
+- All transformations are linked back to source logic  
 
-- **Repeatable Framework**
-  - Consistent across SAS environments
+### Repeatable Framework
+- Consistent across diverse SAS environments  
 
 ---
 
 ## Summary
 
-SAS-2X transforms complex SAS programs into structured, explainable outputs
-through a repeatable four-step process:
+S2X transforms complex SAS programs into structured, explainable outputs through a repeatable four-stage process:
 
-1. Scrub and prepare code  
-2. Identify datasets  
-3. Expand macros  
-4. Analyze logic and generate S2T mappings  
+1. Prepare and normalize code  
+2. Identify datasets and dependencies  
+3. Expand macro-driven logic  
+4. Analyze transformations and generate S2T mappings  
 
-This enables rapid understanding of legacy SAS environments and supports
-modernization, migration, and governance initiatives.
+This process enables rapid understanding of legacy SAS environments and supports modernization, migration, and governance initiatives.
