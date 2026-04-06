@@ -21,6 +21,8 @@ The core engine, automation logic, and advanced capabilities are not included an
 
 S2X is a code intelligence and transformation-readiness framework designed to analyze legacy SAS programs and generate structured, auditable Source-to-Target (S2T) mappings — without requiring access to underlying data.
 
+S2X is designed to operate at scale across hundreds to thousands of SAS programs in enterprise environments.
+
 The system enables organizations to:
 
 - Understand complex SAS ETL environments  
@@ -72,6 +74,107 @@ What traditionally required weeks or months of manual analysis can now be comple
 
 S2X operates as a structured transformation pipeline:
 
+Original SAS Code
+↓
+Normalized & Prepared Code
+↓
+Dataset Identification
+↓
+Macro-Aware Expansion
+↓
+Flattened Logical Representation
+↓
+Transformation Analysis Engine
+↓
+S2T Mapping Outputs (Excel / Structured Data)
+
+
+Intermediate processing stages normalize and expand SAS logic into a structured, analyzable form.
+
+---
+
+## 📌 Examples
+
+Representative examples (SAS inputs and corresponding S2T outputs) will be added in a future update.
+
+---
+
+## Example Outputs
+
+S2X produces structured outputs such as:
+
+- Source-to-Target mapping tables  
+- Variable-level transformation logic  
+- Input-to-output dataset relationships  
+- Rule-level traceability (IF / WHERE / CASE logic)  
+
+These outputs are designed for:
+
+- Data engineers  
+- Business analysts  
+- Modernization teams  
+- Audit and compliance stakeholders  
+
+---
+
+## Design Principles
+
+### Client-Agnostic
+- No embedded schemas, data, or business rules  
+- Portable across industries and environments  
+
+### Data-Free Processing
+- Operates entirely on code structure  
+- Safe for restricted or regulated environments  
+
+### Explainable Logic
+- Every transformation traceable to source code  
+- Supports audit and validation workflows  
+
+### Modular Architecture
+- Independent processing stages  
+- Extensible to additional languages and platforms  
+
+---
+
+## 🚀 Future Capabilities
+
+Planned extensions include automated generation of Python and SQL-based ETL pipelines from S2T mappings.
+
+### → Code-2X (Future State)
+
+- Multi-language code intelligence (SAS, SQL, ETL frameworks)  
+- Cross-platform lineage extraction  
+- Unified transformation mapping across data ecosystems  
+
+---
+
+## Use Cases
+
+- SAS to Python migration planning  
+- Legacy ETL reverse engineering  
+- Rapid S2T documentation generation  
+- Data lineage and governance initiatives  
+- Pre-modernization system assessment  
+
+---
+
+## Repository Contents
+
+- `docs/` — Process documentation and architecture  
+- `examples/` — Sample inputs and outputs (sanitized) *(coming soon)*  
+- `snippets/` — Illustrative code patterns (non-proprietary)  
+
+---
+
+## Status
+
+This repository presents a high-level overview of the S2X framework, including workflow, architecture, and representative outputs.
+
+The full engine, automation capabilities, and advanced implementation remain proprietary intellectual property of STAT X1, Inc.
+
+---
+
 ## Contact
 
 **STAT X1, Inc. / MicroZahn**  
@@ -80,3 +183,12 @@ Established 2011
 
 📧 STAT_X1@yahoo.com | info@microzahn.com  
 🌐 (Website link – coming soon)
+
+---
+
+## License
+
+This repository is provided for informational and demonstration purposes only.
+
+All underlying methodologies, frameworks, and implementation logic are the intellectual property of STAT X1, Inc.
+
