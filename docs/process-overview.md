@@ -54,7 +54,7 @@ This workflow operates on sanitized code only and does not require access to und
 **Actions:**
 - Expand macro-driven logic into analyzable form  
 - Preserve execution behavior  
-- Normalize dynamic code structures  
+- Normalize dynamic and macro-driven code structures 
 
 **Output:**
 - Flattened, macro-resolved SAS logic  
@@ -79,7 +79,7 @@ This workflow operates on sanitized code only and does not require access to und
   - Source-to-target lineage relationships  
 
 **Output:**
-- Structured S2T documentation  
+- Structured, auditable S2T documentation  
 - Transformation-ready mapping outputs  
 
 ---
