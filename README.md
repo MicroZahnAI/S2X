@@ -1,4 +1,4 @@
-# STAT X1: SAS-2X  
+# S2X — SAS Code Intelligence & Modernization Framework
 **Client-Agnostic SAS Code Intelligence & Modernization Framework**  
 DBA MicroZahn | Powered by SPARq Engine  
 
@@ -6,7 +6,7 @@ DBA MicroZahn | Powered by SPARq Engine
 
 ## Overview
 
-**SAS-2X** is a code intelligence and transformation-readiness framework designed to analyze legacy SAS programs and generate structured, auditable **Source-to-Target (S2T) mappings** — without requiring access to underlying data.
+**S2X** is a code intelligence and transformation-readiness framework designed to analyze legacy SAS programs and generate structured, auditable **Source-to-Target (S2T) mappings** — without requiring access to underlying data.
 
 The system enables organizations to:
 - Understand complex SAS ETL environments
@@ -47,7 +47,7 @@ Available for consulting engagements, assessment phases, and modernization plann
 
 ## High-Level Workflow
 
-SAS-2X operates as a structured, multi-stage pipeline:
+S2X operates as a structured, multi-stage pipeline:
 
 1. **Code Preparation**
    - Remove comments and sensitive content
@@ -69,6 +69,13 @@ SAS-2X operates as a structured, multi-stage pipeline:
 
 ---
 
+## ⚙️ S2X Workflow Overview
+
+1. Input: SAS code (Data Step, PROC SQL, Macro-based pipelines)
+2. Phase 1: Parsing and normalization
+3. Phase 2: S2T (Source-to-Target) mapping generation
+4. Phase 3 (Planned): Automated Python and SQL ETL generation
+
 ## Architecture Concept
 
 Original SAS Code  
@@ -86,10 +93,13 @@ SPARq Engine (Module 03)
 S2T Mapping Outputs (Excel / Structured Data)
 
 ---
+## 📌 Examples
+
+Representative examples (SAS inputs and corresponding S2T outputs) will be added in a future update.
 
 ## Example Outputs
 
-SAS-2X produces structured outputs such as:
+S2X produces structured outputs such as:
 
 - Source-to-Target Mapping tables  
 - Variable-level transformation logic  
@@ -103,6 +113,7 @@ These outputs are designed for:
 - Audit and compliance stakeholders  
 
 ---
+
 
 ## Design Principles
 
@@ -126,7 +137,11 @@ These outputs are designed for:
 
 ## Platform Vision
 
-**SAS-2X** represents the initial implementation of a broader platform direction:
+**S2X** represents the initial implementation of a broader platform direction:
+
+## 🚀 Future Capabilities
+
+Planned extensions include automated generation of Python and SQL-based ETL pipelines from S2T mappings.
 
 ### → Code-2X (Future State)
 - Multi-language code intelligence (SAS, SQL, ETL frameworks)  
@@ -155,7 +170,7 @@ These outputs are designed for:
 
 ## Status
 
-This repository presents the **conceptual framework, workflow, and representative outputs** of SAS-2X.
+This repository presents the **conceptual framework, workflow, and representative outputs** of S2X.
 
 The full engine and implementation are maintained as proprietary intellectual property of **STAT X1, Inc.**
 
@@ -176,3 +191,11 @@ Established 2012
 
 This repository is provided for informational and demonstration purposes only.  
 All underlying methodologies, frameworks, and implementation logic are the intellectual property of STAT X1, Inc.
+
+## 🔐 Intellectual Property Notice
+
+S2X is a proprietary framework developed by STAT X1, Inc. prior to and independent of any client engagements.
+
+This repository provides a high-level overview and selected non-sensitive materials for demonstration purposes only.
+
+The core engine, automation logic, and advanced capabilities are not included and remain confidential intellectual property.
