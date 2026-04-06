@@ -74,6 +74,11 @@ What traditionally required weeks or months of manual analysis can now be comple
 
 S2X operates as a structured transformation pipeline:
 
+## Architecture Concept
+
+S2X operates as a structured transformation pipeline:
+
+```
 Original SAS Code
         ↓
 Normalized & Prepared Code
@@ -87,6 +92,7 @@ Flattened Logical Representation
 Transformation Analysis Engine
         ↓
 S2T Mapping Outputs (Excel / Structured Data)
+```
 
 
 Intermediate processing stages normalize and expand SAS logic into a structured, analyzable form.
