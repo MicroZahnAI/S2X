@@ -32,7 +32,7 @@ capstone/
 │
 └── 04_Capstone_Full_Report/
     └── Krizan_Utica_MSDS_Health_Insurance_Costs_Capstone_2000–2023.pdf
-readme_4-Folder_Version.txt
+
 README – 4-Folder Version
 
 DATA SOURCES:
