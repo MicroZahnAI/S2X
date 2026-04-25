@@ -1,29 +1,39 @@
-readme_4-Folder_Version.txt
-README – 4-Folder Version
+# Health Insurance Costs Project (2000–2023)
 
-This repository contains the full set of outputs from the Health Insurance Costs Project (2000–2023), including national figures, income-level detail, and the complete 74-page Utica University capstone report. Expenditure data originate from the U.S. Bureau of Labor Statistics (BLS), with demographic distributions and supporting context from the U.S. Census Bureau and the Bureau of Economic Analysis (BEA).
+**4-Folder Version**  
+*Utica University Capstone – Michael Krizan*
 
-Health_Insurance_Costs_2000–2023_(4-Folder-Version)/
+This repository contains the complete set of deliverables from the **Health Insurance Costs Trends** capstone project. It includes national-level analysis, income quintile breakdowns, executive summary materials, and the full 74-page report.
+
+Expenditure data originate from the U.S. Bureau of Labor Statistics (BLS), with demographic distributions and supporting context from the U.S. Census Bureau and the Bureau of Economic Analysis (BEA).
+
+### Repository Structure
+
+```bash
+capstone/
+├── README.md
+├── Michael_Krizan_Health_Insurance_Cost_Trends_2000-2023.pdf
 │
 ├── 01_Executive_Summary/
-│     ├── Executive_Summary_Health_Insurance_Costs_2000–2023.pdf
-│     ├── Top5_Findings_Health_Insurance_Costs_2000–2023.pdf
-│     └── Health_Insurance_Costs_Project–4-Folders.pdf
+│   ├── Executive_Summary_Health_Insurance_Costs_2000–2023.pdf
+│   ├── Top5_Findings_Health_Insurance_Costs_2000–2023.pdf
+│   └── Health_Insurance_Costs_Project–4-Folders.pdf
 │
 ├── 02_Figures_National/
-│     ├── Fig1_HealthInsPct_AllIncomeLevels.png
-│     ├── Fig2_HealthInsUSD_AllIncomeLevels.png
-│     └── Optional: PDF versions of each figure
+│   ├── Fig1_HealthInsPct_AllIncomeLevels.png
+│   ├── Fig2_HealthInsUSD_AllIncomeLevels.png
+│   └── PDF versions of figures
 │
 ├── 03_Figures_by_Income_Level/
-│     ├── Fig3_HealthInsPct_IncomeLevels_ActualOnly.png
-│     ├── Fig3a_HealthInsPct_IncomeLevels_Trend.png
-│     ├── Fig4_HealthInsUSD_IncomeLevels_ActualOnly.png
-│     ├── Fig4a_HealthInsUSD_IncomeLevels_Trend.png
-│     └── Optional: PDF versions of each figure
+│   ├── Fig3_HealthInsPct_IncomeLevels_ActualOnly.png
+│   ├── Fig3a_HealthInsPct_IncomeLevels_Trend.png
+│   ├── Fig4_HealthInsUSD_IncomeLevels_ActualOnly.png
+│   └── Fig4a_HealthInsUSD_IncomeLevels_Trend.png
 │
 └── 04_Capstone_Full_Report/
-       └── Krizan_Utica_MSDS_Health_Insurance_Costs_Capstone_2000–2023.pdf
+    └── Krizan_Utica_MSDS_Health_Insurance_Costs_Capstone_2000–2023.pdf
+readme_4-Folder_Version.txt
+README – 4-Folder Version
 
 DATA SOURCES:
 • U.S. Bureau of Labor Statistics (BLS), Consumer Expenditure Surveys (CE), 2000–2023  
@@ -39,6 +49,3 @@ DATA SOURCES:
 
 • Bureau of Economic Analysis (BEA)  
    – Supplemental inflation and economic context referenced in the capstone
-
-The capstone report is hosted through Utica University, regionally accredited by the Middle States Commission on Higher Education (MSCHE).  
-This 4-folder version is intended for IRS/RAAS, Treasury Department leadership, and technical reviewers.
