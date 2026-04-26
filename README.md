@@ -181,7 +181,7 @@ The full engine, automation capabilities, and advanced implementation remain pro
 
 📧 **MikeKrizan@MicroZahn.com**  
 📱 **(612) 594-2954**  
-🔗 **[LinkedIn](https://www.linkedin.com/in/mike-k-082bb57/)**  
+🔗 **LinkedIn:** [Search "Mike Krizan MicroZahn" on LinkedIn](https://www.linkedin.com/search/results/people/?keywords=Mike%20Krizan%20MicroZahn)  
 📄 **[Master’s Data Science Capstone – U.S. Health Insurance Cost Trends (2000–2023)](https://github.com/MicroZahnAI/SAS-2x/blob/main/capstone/Michael_Krizan_Health_Insurance_Cost_Trends_2000-2023.pdf)** (75 pages – R/Python)  
 📍 Sioux Falls, SD  
 
@@ -189,7 +189,7 @@ The full engine, automation capabilities, and advanced implementation remain pro
 
 **Education**  
 **M.S., Data Science** – Utica University (May 2025)  
-**B.S., Agricultural Studies (Economics/Statistics)** – Iowa State University
+**B.S., Agricultural Studies (Economics-Major/Statistics-Emphasis)** – Iowa State University
 
 ---
 
