@@ -177,21 +177,22 @@ The full engine, automation capabilities, and advanced implementation remain pro
 
 ---
 
-## Contact
+## Contact Mike Krizan – S2X Founder
 
-**STAT X1, Inc. / MicroZahn**  
-Enterprise Analytics & Modernization Strategy  
-Established 2011  
+📧 **MikeKrizan@MicroZahn.com**  
+📱 **(612) 594-2954**  
+🔗 **[LinkedIn](https://www.linkedin.com/in/mike-k-082bb57/)**  
+📄 **[Master’s Data Science Capstone – U.S. Health Insurance Cost Trends (2000–2023)](https://github.com/MicroZahnAI/SAS-2x/blob/main/capstone/Michael_Krizan_Health_Insurance_Cost_Trends_2000-2023.pdf)** (75 pages – R/Python)  
+📍 Sioux Falls, SD  
 
+---
 
-📧 info@microzahn.com (Product) | STAT_X1@yahoo.com (Consulting)  
-🌐 (Website link – coming soon)
+**Education**  
+**M.S., Data Science** – Utica University (May 2025)  
+**B.S., Agricultural Studies (Economics/Statistics)** – Iowa State University
 
 ---
 
 ## License
-
 This repository is provided for informational and demonstration purposes.
-
 All underlying methodologies, frameworks, and implementation logic are the intellectual property of STAT X1, Inc.
-
