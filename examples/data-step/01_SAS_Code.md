@@ -1,7 +1,5 @@
 # Example 1: DATA Step
 
-# Example 1: DATA Step
-
 ```sas
 /* ================================================================
    STANDARD INPUT DATASET (used across all 3 examples)
