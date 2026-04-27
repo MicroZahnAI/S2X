@@ -183,7 +183,8 @@ The full engine, automation capabilities, and advanced implementation remain pro
 📱 **(612) 594-2954**  
 🔗 **[LinkedIn](https://www.linkedin.com/in/mike-krizan-microzahn)**  
 📄 **[Master’s Data Science Capstone – U.S. Health Insurance Cost Trends (2000–2023)]**
-📄 **Capstone Report Available** → [View/Download Full 75-page PDF](https://github.com/MicroZahnAI/S2X/blob/main/capstone/04_Capstone_Full_Report/Krizan_Utica_MSDS_Health_Insurance_Costs_Capstone_2000-2023.pdf)
+📄 **Capstone Report Available** 
+→ [View/Download Full 75-page PDF](https://github.com/MicroZahnAI/S2X/blob/main/capstone/04_Capstone_Full_Report/Krizan_Utica_MSDS_Health_Insurance_Costs_Capstone_2000-2023.pdf)
 📍 Sioux Falls, SD  
 
 ---
