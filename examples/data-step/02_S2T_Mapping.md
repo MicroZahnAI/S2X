@@ -1,9 +1,3 @@
-
----
-
-#### **File 2: `examples/data-step/02_S2T_Mapping.md`**
-
-```markdown
 # Example 1: Source-to-Target (S2T) Mapping
 
 **Source:** `WORK.RAW_TRANSACTIONS`  
