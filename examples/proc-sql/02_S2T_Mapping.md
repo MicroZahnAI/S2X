@@ -1,9 +1,3 @@
-
----
-
-**File 2: `examples/proc-sql/02_S2T_Mapping.md`**
-
-```markdown
 # Example 2: Source-to-Target (S2T) Mapping
 
 **Source:** `WORK.RAW_TRANSACTIONS`  
