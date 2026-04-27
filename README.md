@@ -97,7 +97,23 @@ Intermediate stages normalize and expand SAS logic into a structured, analyzable
 
 ## 📌 Examples
 
-Representative examples (SAS inputs and corresponding S2T outputs) will be added in a future update.
+Three real-world SAS-to-Python examples are available in the `examples/` folder. Each example includes:
+
+- **SAS Code** (with standard input dataset)
+- **Source-to-Target (S2T) Mapping** – full variable lineage
+- **Python / Pandas Equivalent** – production-ready code
+
+### Available Examples
+
+| Example | Technique                          | Folder |
+|---------|------------------------------------|--------|
+| **1**   | DATA Step (name parsing, calculations, derived fields) | [`examples/data-step/`](https://github.com/MicroZahnAI/S2X/tree/main/examples/data-step) |
+| **2**   | PROC SQL (joins, aggregations, conditional logic)     | [`examples/proc-sql/`](https://github.com/MicroZahnAI/S2X/tree/main/examples/proc-sql) |
+| **3**   | %Macro + %Include (reusable modular ETL)               | [`examples/macro-include/`](https://github.com/MicroZahnAI/S2X/tree/main/examples/macro-include) |
+
+**All examples use the same input dataset** and produce the **identical target output structure** (`work.clean_transactions`) for easy side-by-side comparison.
+
+Click any folder above to explore the full SAS → S2T → Python transformation.
 
 ---
 
